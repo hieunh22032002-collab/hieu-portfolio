@@ -1044,7 +1044,7 @@ document.addEventListener('keydown', (e) => {
 
 // Copy Discord Tag
 function copyDiscord() {
-  const discordTag = "hieu2k23061";
+  const discordTag = "hieunh2203_10905";
   navigator.clipboard.writeText(discordTag).then(() => {
     showToast("Discord tag copied: " + discordTag);
   }).catch(() => {
