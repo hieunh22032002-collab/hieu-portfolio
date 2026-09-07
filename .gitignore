@@ -1,0 +1,6 @@
+verify_*.py
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
