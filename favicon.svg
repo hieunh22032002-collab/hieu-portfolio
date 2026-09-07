@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#221d19"/>
+      <stop offset="100%" stop-color="#14110f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with gold border -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)" stroke="url(#gold)" stroke-width="2" stroke-opacity="0.8"/>
+  <!-- Stylized cinematic H -->
+  <rect x="15" y="15" width="7" height="34" rx="2.5" fill="#fdfbf7"/>
+  <rect x="42" y="15" width="7" height="34" rx="2.5" fill="#fdfbf7"/>
+  <rect x="20" y="28.5" width="24" height="7" fill="#fdfbf7"/>
+  <!-- Central gold play accent -->
+  <path d="M29 26 L38 32 L29 38 Z" fill="url(#gold)"/>
+</svg>
